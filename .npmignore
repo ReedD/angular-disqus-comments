@@ -7,3 +7,4 @@ src
 tsconfig.json
 tsconfig.**.json
 tslint.json
+rollup.config.js
