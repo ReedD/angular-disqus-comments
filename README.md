@@ -4,8 +4,9 @@ A directive to add Disqus comments into your angular templates
 
 ## Install
 
-Yarn: `yarn add angular-disqus-comments`
-NPM: `npm install --save angular-disqus-comments`
+yarn: `yarn add angular-disqus-comments`
+
+npm: `npm install --save angular-disqus-comments`
 
 ## Setup
 
