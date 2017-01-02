@@ -1,0 +1,9 @@
+# Any hidden files
+**/.*
+
+node_modules
+src
+
+tsconfig.json
+tsconfig.**.json
+tslint.json

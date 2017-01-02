@@ -1,0 +1,31 @@
+{
+  "name": "angular-disqus-comments",
+  "version": "1.0.0",
+  "description": "Disqus Angular directive",
+  "main": "dist/angular-disqus-comments.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf ./dist",
+    "bundle": "rollup -c && rollup -c --environment MINIFY",
+    "package": "yarn run clean && yarn run build && yarn run bundle"
+  },
+  "homepage": "https://github.com/ReedD/angular-disqus-comments",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReedD/angular-disqus-comments.git"
+  },
+  "author": "Reed Dadoune <reed@dadoune.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "peerDependencies": {
+    "angular": ">=1.2.0 <2.0.0"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.5.22",
+    "rollup": "^0.39.2",
+    "rollup-plugin-uglify": "^1.0.1",
+    "typescript": "^2.1.4"
+  }
+}
